@@ -1,0 +1,21 @@
+$black: #000000;
+$dark: #141414;
+$white: #ffffff;
+$grey: #f4f4f4;
+$darkpurple: #211951;
+$lightpink: #f0edff;
+$yellow: #dbff00;
+$primary: #9E29EC;
+$grey_grad: linear-gradient(98deg, #e5e5e5 -1.26%, #cecece 100%);
+
+$Mango_font: "MangoGrotesqueExtBd";
+
+@font-face {
+  font-family: "MangoGrotesqueExtBd";
+  src: url("./fonts/MangoGrotesque-ExtraBold.woff") format("woff"); /* Modern Browsers */
+  font-style: normal;
+  font-weight: normal;
+  text-rendering: optimizeLegibility;
+}
+
+// @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
