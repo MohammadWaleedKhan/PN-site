@@ -247,7 +247,6 @@ export default function Services() {
       </div>
       {/* <!-- Section - About End --> */}
 
-
       {/* <!-- Section - Blog Preview Start --> */}
       <div className="mxd-section padding-blog">
         <div className="mxd-container grid-container">
