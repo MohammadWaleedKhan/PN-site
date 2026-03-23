@@ -26,7 +26,7 @@ export default function CLIENTSTORIES() {
                                                 <i className="ph ph-arrow-up-right"></i></a>
                                         </div>
                                         <div className="youtubeIframeWrap">
-                                            <iframe height="315" src="https://www.youtube.com/embed/hoEJN4ynoHQ?si=1bvXHgRiSwe9lXA_" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                            <iframe height="315" src="https://www.youtube.com/embed/hoEJN4ynoHQ?si=1bvXHgRiSwe9lXA_" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
                                         </div>
                                         <p>Alyessa shares her amazing experience with Pulse Native! 🌟✨</p>
 
@@ -44,7 +44,7 @@ export default function CLIENTSTORIES() {
 
                                         <div className="youtubeIframeWrap">
 
-                                            <iframe height="315" src="https://www.youtube.com/embed/k24V0YWHk-U?si=HbnfeM63GSNKc2aj" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                            <iframe height="315" src="https://www.youtube.com/embed/k24V0YWHk-U?si=HbnfeM63GSNKc2aj" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
                                             
                                         </div>
                                         <p>Transformative Learning Experience: A Client's Journey with Custom LMS</p>
