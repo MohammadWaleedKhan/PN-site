@@ -5,9 +5,9 @@ const withPWA = require('next-pwa')({
   skipWaiting: true,
 });
 
-module.exports = withPWA({
-  // ...other Next.js config options
-});
+// module.exports = withPWA({
+//   // ...other Next.js config options
+// });
 
 
 const nextConfig = {
@@ -28,4 +28,5 @@ const nextConfig = {
   // }
 };
 
-module.exports = withPWA(nextConfig);
+module.exports = nextConfig;
+// module.exports = withPWA(nextConfig);
