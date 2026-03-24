@@ -50,6 +50,7 @@
   "devDependencies": {
     "@types/imagesloaded": "^4.1.7",
     "@types/lodash": "^4.17.21",
+    "@types/masonry-layout": "^4.2.8",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",

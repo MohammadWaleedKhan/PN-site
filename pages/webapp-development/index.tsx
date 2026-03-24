@@ -13,9 +13,7 @@ import HeroImg7 from '../../public/images/Frame-7.png'
 import IconImg1 from '../../public/images/icons/h70_stats-01.webp'
 import IconImg2 from '../../public/images/icons/h70_stats-02.webp'
 import IconImg3 from '../../public/images/icons/h70_stats-03.webp'
-import IconImg4 from '../../public/images/icons/h70_stats-04.webp'
 
-import { Swiper, SwiperSlide } from 'swiper/react';
 
 import { gsap, SplitText, ScrollTrigger } from "@/helpers/gsap";
 
