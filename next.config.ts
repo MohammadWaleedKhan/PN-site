@@ -12,7 +12,7 @@ module.exports = withPWA({
 
 const nextConfig = {
   experimental: {
-    appDir: false 
+    appDir: true 
   },
   reactStrictMode: true,
   output: "export",
