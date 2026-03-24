@@ -1,12 +1,9 @@
 /* eslint-disable @next/next/no-img-element */
-import React, { useEffect, useState } from "react";
-import { gsap } from "gsap";
-import { ScrollTrigger } from "gsap/ScrollTrigger";
-import videoImg from '../../public/images/video/1920x1080_video-07.webp'
+
+
 
 export default function CLIENTSTORIES() {
 
-    const [play, setPlay] = useState(false);
     return (
         <>
 

@@ -1,5 +1,5 @@
 import Head from "next/head";
-import React, { useEffect, useRef, useState } from "react";
+import React, { useEffect, useRef } from "react";
 
 
 // import Link from "next/link";
@@ -16,16 +16,8 @@ import React, { useEffect, useRef, useState } from "react";
 
 import IconImg1 from '../../public/images/icons/300x300_obj-btn-03.webp'
 import IconImg2 from '../../public/images/icons/300x300_obj-cta-01.webp'
-import AvatarsImg1 from '../../public/images/avatars/300x300_ava-03.webp'
-import AvatarsImg2 from '../../public/images/avatars/300x300_ava-04.webp'
-import IllustrationsImg1 from '../../public/images/illustrations/1400x1400_values-01.webp'
-import IllustrationsImg2 from '../../public/images/illustrations/1400x1400_values-02.webp'
 import IllustrationsImg3 from '../../public/images/illustrations/cta-img-01.webp'
 import IllustrationsImg4 from '../../public/images/illustrations/cta-img-02.webp'
-import IllustrationsImg5 from '../../public/images/illustrations/360x440_list-03.webp'
-import IllustrationsImg6 from '../../public/images/illustrations/360x440_list-04.webp'
-import IllustrationsImg7 from '../../public/images/illustrations/cta-img-01.webp'
-import IllustrationsImg8 from '../../public/images/illustrations/cta-img-02.webp'
 import TestimonialsSlider from "@/components/TestimonialsSlider";
 // import video1 from '../../public/video/1920x1080_video-07.webp'
 
@@ -42,11 +34,11 @@ export default function Services() {
       const Masonry = (await import('masonry-layout')).default;
       const imagesLoaded = (await import('imagesloaded')).default;
 
-      masonry = new Masonry(gridRef.current, {
+      masonry = new Masonry(gridRef.current!, {
         percentPosition: true,
       });
 
-      imagesLoaded(gridRef.current).on('progress', () => {
+      imagesLoaded(gridRef.current!).on('progress', () => {
         masonry.layout();
 
         if (typeof window !== 'undefined' && (window as any).ScrollTrigger) {

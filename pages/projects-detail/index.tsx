@@ -1,5 +1,5 @@
 import Head from "next/head";
-import React, { useEffect, useRef, useState } from "react";
+import React, { useEffect } from "react";
 
 import IconImg2 from '../../public/images/icons/300x300_obj-cta-01.webp'
 import IllustrationsImg3 from '../../public/images/illustrations/cta-img-01.webp'

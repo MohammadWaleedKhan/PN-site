@@ -1,5 +1,5 @@
 import Head from "next/head";
-import React, { useEffect, useRef, useState } from "react";
+import React, { useEffect } from "react";
 
 import IconsImg1 from '../../public/images/icons/96x96-decor-01.svg'
 import AvatarsImg1 from '../../public/images/Rectangle-6.png'
@@ -15,7 +15,7 @@ import IconImg2 from '../../public/images/icons/h70_stats-02.webp'
 import IconImg3 from '../../public/images/icons/h70_stats-03.webp'
 
 
-import { gsap, SplitText, ScrollTrigger } from "@/helpers/gsap";
+import { gsap, ScrollTrigger } from "@/helpers/gsap";
 
 // Import Swiper styles
 import 'swiper/css';
@@ -24,8 +24,7 @@ import 'swiper/css/pagination';
 // import './styles.css';
 
 // import required modules
-import { Autoplay, Pagination } from 'swiper/modules';
-import ClientStories from "@/components/ClientStories";
+
 import FAQ from "@/components/Faq";
 import Form from "@/components/Form";
 import TestimonialsSlider from "@/components/TestimonialsSlider";
